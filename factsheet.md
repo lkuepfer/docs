@@ -22,8 +22,7 @@
 <table>
 <tbody>
 <tr class="odd">
-<td>Model building blocks</td>
-<td></td>
+<td colspan="2" align="center"><b>Model building blocks</b></td>
 </tr>
 <tr class="even">
 <td style="vertical-align:top"><p>Organisms</p></td>
@@ -78,7 +77,7 @@
 </tr>
 <tr class="odd">
 <td style="vertical-align:top"><p>Compounds</p></td>
-<td><p>full ADME characterization of small and large therapeutic molecules including</p>
+<td><p>Full ADME characterization of drugs including</p>
 <ul>
 <li><p>molecular weight</p></li>
 <li><p>lipophilicity</p></li>
@@ -91,7 +90,13 @@
 <li><p>transporter specific transport kinetics</p></li>
 <li><p>inhibition and induction parameters</p></li>
 </ul>
-<p>including a set of pre-parameterized standard compounds</p></td>
+<p>and for large therapeutic molecules (e.g. antibodies)</p>
+<ul>
+<li><p>solute radius (calculated for molecular weight as per default)</p></li>
+<li><p>dissociation constant for binding to FcRn</p></li>
+</ul>
+  <br>
+<p>Including a set of pre-parameterized standard compounds</p></td>
 </tr>
 <tr class="even">
 <td style="vertical-align:top"><p>Partition Coefficients</p></td>
@@ -133,7 +138,9 @@
 <li><p>Single</p></li>
 <li><p>once daily, bi-daily, …</p></li>
 <li><p>complex (multi-)periodic schemes</p></li>
-</ul></td>
+<p><img src="assets/images/part-3/PKSim_Protocol_AdvancedEx.png" /></p>
+</ul>
+</td>
 </tr>
 <tr class="even">
 <td>Events</td>
@@ -143,8 +150,7 @@
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Modeling tools</td>
-<td></td>
+<td colspan="2" align="center"><b>Modeling tools</b></td>
 </tr>
 <tr class="even">
 <td style="vertical-align:top"><p>Parameter identification (PI)</p></td>
@@ -197,17 +203,13 @@
 <li><p>Calculation of time profile confidence intervals</p>
 <ul>
 <li><p><strong>Confidence Interval:</strong> Corresponds to the model error, which is based on the uncertainty of estimated parameters. This uncertainty is based on an estimation of the difference between the mean value of used observed data compared with the mean value of the (unknown) total data.</p></li>
-</ul></li>
-</ul>
 <p><img src="assets/images/factsheet/image009.png"  /></p>
-<ul>
+</li>
 <li><p><strong>Visual Predictive Check Interval:</strong> Corresponds to the uncertainty based on the data error. The data error is the standard deviation of the distribution of the used observed data.</p></li>
-</ul>
 <p><img src="assets/images/factsheet/image011.png" /></p>
-<ul>
 <li><p><strong>Prediction Interval:</strong> Corresponds to the combination of the model error and the data error. It shows how much future measured data are expected to differ from the model predictions.</p></li>
-</ul>
 <p><img src="assets/images/factsheet/image013.png" /></p></td>
+</ul>
 </tr>
 <tr class="odd">
 <td style="vertical-align:top"><p>Sensitivity analysis</p></td>
@@ -238,8 +240,7 @@
 <td>full transparency and full edit access to all structural model properties</td>
 </tr>
 <tr class="even">
-<td>Simulation tools</td>
-<td></td>
+<td colspan="2" align="center"><b>Simulation tools</b></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -356,8 +357,7 @@
 <td></td>
 </tr>
 <tr class="odd">
-<td>Data</td>
-<td></td>
+<td colspan="2" align="center"><b>Data</br></td>
 </tr>
 <tr class="even">
 <td style="vertical-align:top">Data import</td>
@@ -386,7 +386,7 @@
 <tr class="even">
 <td>Non-compartmental analysis</td>
 <td>
-<p>NCA calculation for</p>
+<p>NCA calculation for TODO</p>
 </td>
 </tr>
 </tbody>
